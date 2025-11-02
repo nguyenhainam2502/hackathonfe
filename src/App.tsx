@@ -62,16 +62,6 @@ export default function App(){
         Đăng ký
       </NavLink>
     </nav>
-
-    {/* ICON + AVATAR */}
-    <div className="flex items-center gap-2">
-      <button className="h-8 w-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-        <span className="material-symbols-outlined text-sm">notifications</span>
-      </button>
-      <div className="h-8 w-8 rounded-full bg-amber-200 text-[#0f1a23] grid place-items-center text-xs font-semibold">
-        A
-      </div>
-    </div>
   </div>
 </header>
 
