@@ -12,6 +12,15 @@ export const login = async (username: string, password: string) => {
   return data
 }
 
+export const register = async (payload: {
+  username: string
+  email: string
+  password: string
+}) => {
+  const { data } = await api.post("/auth/register", payload)
+  return data
+}
+
 // Flights
 export const searchFlights = async (params: {
   from: string; to: string; departDate: string; returnDate?: string; adults?: number; children?: number; tripType?: "oneway"|"round"|"multi"

@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { searchFlights } from "@services/api"
 import { useNavigate } from "react-router-dom"
+import ClockWidget from "@components/ClockWidget"
 
 export default function SearchFlights(){
   const [tripType, setTripType] = useState<"round"|"oneway"|"multi">("round")
@@ -73,6 +74,7 @@ export default function SearchFlights(){
             </div>
           ))}
         </div>
+       <ClockWidget showSeconds={true} />
       </div>
     </div>
   )

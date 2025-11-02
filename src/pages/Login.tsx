@@ -25,8 +25,8 @@ export default function Login(){
 
   return (
     <div className="relative min-h-[calc(100vh-56px)] flex items-center justify-center bg-cover bg-center"
-      style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCoC2QQVz6sDzS3JSvDjs4vtsvw70SLSxIXjjbqJWZSB6YiWKB64EWn-lJUq11xaB_fvKRo7Q2V92eUXHAhlFUvyBnTyWqHZiM-AuZ9dtMOZ2tqJYZmpEWGcd-4aHJWCoEqE9_09G2oAKMnf2fezCX4LDPmemth4c8iCB7jrS3Q-F10EWN7pwgE1SA4578KaYCDVZthv5TVQkhP8Hn7EgFXGSmZKem52AesO726M2tmzSlw038KdSLS4hm6zcs01b2675B6wqYnfzII')"}}>
-      <div className="absolute inset-0 bg-background-dark/80 backdrop-blur-sm" />
+      style={{backgroundImage: `url("https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=1920")`}}>
+      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
       <form onSubmit={onSubmit} className="relative z-10 w-full max-w-md rounded-xl border border-white/10 bg-background-dark/50 p-8 text-white">
         <h1 className="text-3xl font-bold text-center mb-2">Chào mừng trở lại</h1>
         <p className="text-white/70 text-center mb-6">Đăng nhập vào hệ thống quản lý vé</p>
